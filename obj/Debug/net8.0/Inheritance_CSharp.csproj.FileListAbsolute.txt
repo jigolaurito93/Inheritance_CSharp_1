@@ -12,3 +12,4 @@ C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net
 C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.pdb
 C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.genruntimeconfig.cache
 C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\ref\Inheritance_CSharp.dll
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.sourcelink.json

@@ -5,6 +5,15 @@ namespace Inheritance_CSharp
     // Base Class (Parent Class or Superclass): The class whose members are inherited
     public class Animal
     {
+        // Public fields can be accessed from anywhere, including derived classes and other classes
+        public string publicField = "This is a public field.";
+        // Private fields can only be accessed within the class they are declared in, and cannot be accessed from derived classes or other classes
+        private string privateField = "This is a private field.";
+        // Protected fields can be accessed within the class they are declared in and by derived classes, but not from other classes
+        protected string protectedField = "This is a protected field.";
+        // Internal fields can be accessed from any class within the same assembly, but not from classes in other assemblies
+        internal string internalField = "This is an internal field.";
+        
         public void Eat()
         {
             Console.WriteLine("Eating...");

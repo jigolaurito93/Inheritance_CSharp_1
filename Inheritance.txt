@@ -14,7 +14,7 @@ Hierarchical Inheritance:
 Multiple Inheritance:
     - Derived class inherits from multiple base classes
     class DerivedClass : BaseClass1, BaseClass2{}
-
+ 
 ACCESS MODIFIERS:
 
 Public:

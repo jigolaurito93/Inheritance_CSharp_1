@@ -14,5 +14,14 @@ namespace Inheritance_CSharp
         {
             Console.WriteLine("Woof!");
         }
+
+        public void AccessFields()
+        {
+            publicField = "Accessing public field coming from Animal class.";
+            // This will cause an error because privateField is not accessible in the Dog class
+            //privateField = "Accessing private field coming from Animal class."; 
+            protectedField = "Accessing protected field coming from Animal class.";
+            internalField = "Accessing internal field coming from Animal class.";
+        }
     }
 }

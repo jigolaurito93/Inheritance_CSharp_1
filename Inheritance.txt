@@ -1,5 +1,7 @@
 Inheritance
 
+TYPES OF INHERITANCE:
+
 Single Inheritance:
     - Class inherits from one base class
     class DerivedClass : BaseClass{}
@@ -12,3 +14,14 @@ Hierarchical Inheritance:
 Multiple Inheritance:
     - Derived class inherits from multiple base classes
     class DerivedClass : BaseClass1, BaseClass2{}
+
+ACCESS MODIFIERS:
+
+Public:
+    - Means that the member is accessible from any other code
+Protected:
+    - Means that the member is accessible within its class and by derived class instances
+Private:
+    - Means that the member is accessible only within its class
+Internal:
+    - Means that the member is accessible only within files in the same assembly

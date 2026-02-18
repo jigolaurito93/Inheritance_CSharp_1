@@ -9,5 +9,10 @@ namespace Inheritance_CSharp
         {
             Console.WriteLine("Eating...");
         }
+
+        // Protected means that the member is accessible within its class and by derived class instances
+        // Private means that the member is accessible only within its class
+        // Internal means that the member is accessible only within files in the same assembly
+        // Public means that the member is accessible from any other code
     }
 }

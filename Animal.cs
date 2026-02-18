@@ -23,5 +23,12 @@ namespace Inheritance_CSharp
         // Private means that the member is accessible only within its class
         // Internal means that the member is accessible only within files in the same assembly
         // Public means that the member is accessible from any other code
+
+        // Virtual method allows derived classes to override it with their own implementation
+        // If a method is marked as virtual, it can be overridden in a derived class using the override keyword.
+        public virtual void Speak()
+        {
+            Console.WriteLine("Animal is speaking...");
+        }
     }
 }

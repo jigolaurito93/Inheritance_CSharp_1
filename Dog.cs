@@ -5,12 +5,14 @@ namespace Inheritance_CSharp
     // Derived Class(Child Class or Subclass)
     public class Dog : Animal
     {
+        // Constructor of the Dog class, which is called when a new instance of the Dog class is created. It calls the Eat() method and the Speak() method inherited from the Animal class.
         public Dog()
         {
-            Bark();
             Eat();
+            // When the Speak() method is called on a Dog instance, it will call the overridden Speak() method in the Dog class, which outputs "Woof!" instead of the default implementation in the Animal class.
+            Speak();
         }
-        public void Bark()
+        public override void Speak()
         {
             Console.WriteLine("Woof!");
         }

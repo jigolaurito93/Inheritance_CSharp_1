@@ -25,3 +25,12 @@ Private:
     - Means that the member is accessible only within its class
 Internal:
     - Means that the member is accessible only within files in the same assembly
+
+METHOD OVERRIDING:
+
+Override:
+    - This method is used to provide a new implementation of a method that is inherited from a base class. 
+    - The method in the base class must be marked as virtual, abstract, or override for it to be overridden in the derived class.
+
+Virtual:
+    - This method allows derived classes to override it with their own implementation

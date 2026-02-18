@@ -1,0 +1,14 @@
+Inheritance
+
+Single Inheritance:
+    - Class inherits from one base class
+    class DerivedClass : BaseClass{}
+Multilevel Inheritance:
+    - Class derived from another derived class
+    class FurtherDerivedClass : Derived Class{}
+Hierarchical Inheritance:
+    - Multiple classes derive from one base class
+    class DerivedClass2 :  BaseClass{}
+Multiple Inheritance:
+    - Derived class inherits from multiple base classes
+    class DerivedClass : BaseClass1, BaseClass2{}

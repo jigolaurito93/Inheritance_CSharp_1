@@ -25,6 +25,10 @@ namespace Inheritance_CSharp
             // Creating an instance of the Employee class and calling the DisplayInfo() method to display the person's information.
             Employee john = new Employee("John Doe", 30, "Software Engineer", 80000);
             john.DisplayEmployeeInfo();
+
+            Department jessie = new Department("Jessie Smith", 28, "Project Manager", 90000, "IT", 101);
+            Department jenny = new Department("Jenny Brown", 35, "IT Director", 85000, "IT", 102);  
+            Console.WriteLine("Department Size: " + Department.DepartmentSize);
         }
     }
 }

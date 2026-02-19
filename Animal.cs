@@ -28,7 +28,7 @@ namespace Inheritance_CSharp
         // If a method is marked as virtual, it can be overridden in a derived class using the override keyword.
         public virtual void Speak()
         {
-            Console.WriteLine("Animal is speaking...");
+            Console.WriteLine("Animal is speaking generically...");
         }
     }
 }

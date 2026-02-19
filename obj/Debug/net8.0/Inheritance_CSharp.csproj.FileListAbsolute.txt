@@ -43,3 +43,18 @@ C:\Users\jigol\Documents\Programming\C#\Inheritance_CSharp_1\obj\Debug\net8.0\re
 C:\Users\jigol\Documents\Programming\C#\Inheritance_CSharp_1\obj\Debug\net8.0\Inheritance_CSharp.pdb
 C:\Users\jigol\Documents\Programming\C#\Inheritance_CSharp_1\obj\Debug\net8.0\Inheritance_CSharp.genruntimeconfig.cache
 C:\Users\jigol\Documents\Programming\C#\Inheritance_CSharp_1\obj\Debug\net8.0\ref\Inheritance_CSharp.dll
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\bin\Debug\net8.0\Inheritance_CSharp.exe
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\bin\Debug\net8.0\Inheritance_CSharp.deps.json
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\bin\Debug\net8.0\Inheritance_CSharp.runtimeconfig.json
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\bin\Debug\net8.0\Inheritance_CSharp.dll
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\bin\Debug\net8.0\Inheritance_CSharp.pdb
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.AssemblyInfoInputs.cache
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.AssemblyInfo.cs
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.sourcelink.json
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.dll
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\refint\Inheritance_CSharp.dll
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.pdb
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\Inheritance_CSharp.genruntimeconfig.cache
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\Inheritance_CSharp\obj\Debug\net8.0\ref\Inheritance_CSharp.dll

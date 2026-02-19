@@ -7,6 +7,7 @@ namespace Inheritance_CSharp
         // Override the Speak method from the Animal class by using the override keyword. This allows the Cat class to provide its own implementation of the Speak method.
         public override void Speak()
         {
+            base.Speak(); // This will call the Speak() method of the base class (Animal) before executing the Cat's Speak() method.
             Console.WriteLine("Meow!");
         }
     }

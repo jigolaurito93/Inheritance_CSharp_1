@@ -14,6 +14,7 @@ namespace Inheritance_CSharp
         }
         public override void Speak()
         {
+            base.Speak(); // This will call the Speak() method of the base class (Animal) before executing the Dog's Speak() method.
             Console.WriteLine("Woof!");
         }
 

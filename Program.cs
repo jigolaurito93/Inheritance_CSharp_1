@@ -17,7 +17,7 @@ namespace Inheritance_CSharp
 
             //  Cannot create an instance of the abstract type of Vehicle class because it is abstract and cannot be instantiated directly. 
             // Abstract classes are meant to be inherited by other classes, and they often contain abstract methods that must be implemented by derived classes.
-            //Vehicle vehicle = new Vehicle();
+            // Vehicle vehicle = new Vehicle();
             Car car = new Car();
             car.Start(); //Output: Car is starting...
             car.Stop(); //Output: Vehicle is stopping...
@@ -29,6 +29,8 @@ namespace Inheritance_CSharp
             Department jessie = new Department("Jessie Smith", 28, "Project Manager", 90000, "IT", 101);
             Department jenny = new Department("Jenny Brown", 35, "IT Director", 85000, "IT", 102);  
             Console.WriteLine("Department Size: " + Department.DepartmentSize);
+
+            john.BecomeOlder(5);
         }
     }
 }

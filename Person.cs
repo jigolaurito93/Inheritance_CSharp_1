@@ -25,6 +25,20 @@ namespace Inheritance_CSharp
             Console.WriteLine("Name: " + Name);
             Console.WriteLine("Age: " + Age);
         }
+        /// <summary>
+        /// Method to increase the age of the person by a specified number of years. 
+        /// It takes an integer parameter representing the number of years to add to the current age, 
+        /// updates the Age property, and returns the new age. It also prints a message to the console 
+        /// indicating how many years the person has become older and what their new age is.
+        /// </summary>
+        /// <param name="years"></param>
+        /// <returns>Returns the new age after aging/becoming older</returns>
+        public int BecomeOlder(int years)
+        {
+            Age += years;
+            Console.WriteLine($"{Name} has become older by {years} years. New age: {Age}");
+            return Age;
+        }
 
     }
 }

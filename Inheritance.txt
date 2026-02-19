@@ -35,11 +35,25 @@ Override:
 Virtual:
     - This method allows derived classes to override it with their own implementation
 
-ABSTRACT
+ABSTRACT:
 
-Abstratct Class:
+Abstract Class:
     - Abstract class is a class that cannot be instantiated and is typically used as a base class for other classes. It can contain abstract methods, which are declared without an implementation and must be implemented by derived classes.
     - It serves as a blueprint for other classes.
 Abstract Method:
     - Abstract method are methods that are declared in an abstract class and do not have an implementation. They must be implemented by any non-abstract class that inherits from the abstract class. 
     - Abstract methods are used to define a common interface for a group of related classes, while allowing each class to provide its own implementation of the method.
+
+WHY CONSTRUCTOR INHERITANCE IS USEFUL:
+    
+    Ensuring Base Class initialization:
+        - The base class has fields that must be initialized. By calling base parameters, 
+          we ensure that these fields are set up before derived class constructor continues with its own initialization.
+    Avoiding Code Duplication:
+        - The initialization logic for base class fields is centralized in the base class. If these fields were initialized separately 
+          in every derived class, it would lead to code duplication and potential errors if the initialization logic needed to be changed.
+
+TRIPLE-SLASH:
+
+Triple-slash XML documentation comments for the BecomeOlder method, 
+which provides a description of what the method does, its parameters, and its return value.

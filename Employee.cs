@@ -18,6 +18,9 @@ namespace Inheritance_CSharp
             Console.WriteLine($"Employee created: {Name}, Age: {Age}, Job: {JobPosition}, Salary: {Salary} in the Employee class.");
         }
 
+        /// <summary>
+        /// Method to display the information of the employee. It first calls the DisplayInfo() method from the base Person class to display the Name and Age properties,
+        /// </summary>
         public void DisplayEmployeeInfo()
         {
             Console.WriteLine("DisplayEmployeeInfo method called.");

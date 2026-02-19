@@ -14,6 +14,15 @@ namespace Inheritance_CSharp
             // When using the method Speak() on the Cat instance, it will call the overridden Speak() method in the Cat class, which outputs "Meow!" instead of the default implementation in the Animal class.
             Cat siamese = new Cat();
             siamese.Speak();
+
+            //  Cannot create an instance of the abstract type of Vehicle class because it is abstract and cannot be instantiated directly. 
+            // Abstract classes are meant to be inherited by other classes, and they often contain abstract methods that must be implemented by derived classes.
+            //Vehicle vehicle = new Vehicle();
+            Car car = new Car();
+            car.Start(); //Output: Car is starting...
+            car.Stop(); //Output: Vehicle is stopping...
+
+
         }
     }
 }

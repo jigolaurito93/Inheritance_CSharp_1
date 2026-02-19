@@ -34,3 +34,12 @@ Override:
 
 Virtual:
     - This method allows derived classes to override it with their own implementation
+
+ABSTRACT
+
+Abstratct Class:
+    - Abstract class is a class that cannot be instantiated and is typically used as a base class for other classes. It can contain abstract methods, which are declared without an implementation and must be implemented by derived classes.
+    - It serves as a blueprint for other classes.
+Abstract Method:
+    - Abstract method are methods that are declared in an abstract class and do not have an implementation. They must be implemented by any non-abstract class that inherits from the abstract class. 
+    - Abstract methods are used to define a common interface for a group of related classes, while allowing each class to provide its own implementation of the method.

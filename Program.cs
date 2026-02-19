@@ -22,6 +22,10 @@ namespace Inheritance_CSharp
             car.Start(); //Output: Car is starting...
             car.Stop(); //Output: Vehicle is stopping...
 
+            // Creating an instance of the Employee class and calling the DisplayInfo() method to display the person's information.
+            Employee john = new Employee("John Doe", 30);
+            john.DisplayInfo();
+
 
         }
     }
